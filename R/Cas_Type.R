@@ -4208,13 +4208,13 @@ CaSilico=function(ResultsFolder="CaSilico_output",
         html_result=read_file("result1.html")
         line_heder=paste0('<header><h1 style="color:blue;font-size:30px;" align="middle">',
                           paste0('Results Table for ',ID_code,' CRISPR-Cas System'),'</h1>')
-        line_img_tehran=paste('<img src=   "https://drive.google.com/thumbnail?id=1NrT3Zw15mdetkgB4xLZ7GlZnDj-uAeNw"','width= 20% height= 20%',' align="left" >')
+        line_img_tehran=paste('<img src=   "https://drive.google.com/thumbnail?id=1Eu__Bg1uAeyuulknr4XUDljKvWT5h2cR"','width= 20% height= 20%',' align="left" >')
         line_img_MRBLAB=paste('<img src=    "https://drive.google.com/thumbnail?id=1BWDyB9RcBdes4dRNRh5ff3lUxMaUwdME"','width= 12% height= 20%',' align="left" >')
         line_help='<p>more detailed description of columns is available in the <a href="https://sadegh65v.github.io/casilico/Casilico%20Guide.html" rel="nofollow noreferrer">HELP</a> section</p>'
 
         file_Conaction<-file("Spacers_Information.Html")
-        writeLines(c(line_heder,html_result,line_help,line_img_MRBLAB), file_Conaction)
-        #writeLines(c(line_heder,line_img_tehran,html_result,line_help,line_img_MRBLAB), file_Conaction)
+        #writeLines(c(line_heder,html_result,line_help,line_img_MRBLAB), file_Conaction)
+        writeLines(c(line_heder,line_img_tehran,html_result,line_help,line_img_MRBLAB), file_Conaction)
 
         close(file_Conaction)
 
