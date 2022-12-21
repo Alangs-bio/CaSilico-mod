@@ -4036,7 +4036,7 @@ CaSilico=function(ResultsFolder="CaSilico_output",
             html_result=read_file("result2.html")
             line_heder=paste0('<header><h1 style="color:blue;font-size:30px;" align="middle">',
                               paste0('Off_Targets Results Table for ',ID_code,' CRISPR-Cas System'),'</h1>')
-            line_img_tehran=paste('<img src=   "https://drive.google.com/thumbnail?id=1NrT3Zw15mdetkgB4xLZ7GlZnDj-uAeNw"','width= 300 height= 130',' align="left" >')
+            line_img_tehran=paste('<img src=   "https://drive.google.com/thumbnail?id=1Eu__Bg1uAeyuulknr4XUDljKvWT5h2cR"','width= 300 height= 130',' align="left" >')
             line_img_MRBLAB=paste('<img src=   "https://drive.google.com/thumbnail?id=1BWDyB9RcBdes4dRNRh5ff3lUxMaUwdME" ','width= 100 height= 100',' align="left" >')
 
 
