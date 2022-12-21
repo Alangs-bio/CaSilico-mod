@@ -24,7 +24,7 @@ CaSilico workflow. (A) CaSilico accepts a single or a set of DNA or RNA sequence
 ```
 library("devtools")
 
-install_github("mrb20045/CaSilico")
+install_github("Alangs-bio/CaSilico")
 ```
 
 
